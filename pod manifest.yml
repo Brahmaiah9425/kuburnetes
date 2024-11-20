@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: javawebapppod
+  lables:
+    app: javawebapp
+spec: 
+  conatainers:
+  - name: javawebappcontainer
+    image: ashokit/javawebapp
+    ports:
+      containerPort: 8080
+...
