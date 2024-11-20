@@ -3,10 +3,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: javawebapppod
-  lables:
+  labels:
     app: javawebapp
 spec: 
-  conatainers:
+  containers:
   - name: javawebappcontainer
     image: ashokit/javawebapp
     ports:
