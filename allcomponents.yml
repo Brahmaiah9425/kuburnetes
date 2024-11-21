@@ -24,7 +24,7 @@ apiVersion: v1
 kind: Service
 metadata: 
   name: javawebappsvc
-namespace: brahmaiah
+  namespace: brahmaiah
 spec:
   type: LoadBalancer
   selector:
