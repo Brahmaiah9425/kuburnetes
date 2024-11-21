@@ -6,9 +6,9 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matachLabels:
+    matchLabels:
       app: javawebapp
-    templates:
+    template:
       metadata: 
         name: javawebapppod
         labels:
