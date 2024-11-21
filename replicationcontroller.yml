@@ -14,10 +14,10 @@ spec:
         app: javawebapp
     spec:
       containers:
-        name: javawebappcontainer
-        image: ashokit/javawebapp
-        ports:
-          - containerPort: 8080
+        - name: javawebappcontainer
+          image: ashokit/javawebapp
+          ports:
+            - containerPort: 8080
 
 ---
 apiVersion: v1
