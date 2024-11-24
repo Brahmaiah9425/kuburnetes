@@ -47,10 +47,11 @@ metadata:
  labels: 
   app: weshopify-app-db-service
 spec:
- type: ClusterIP
+ type: NodePort
  ports:
   - port: 3306
     targetPort: 3306
+    nodePort: 30788
     protocol: TCP
  selector: 
   app: weshopify-app-db-podv
