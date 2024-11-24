@@ -55,5 +55,5 @@ spec:
   - port: 3306
     targetPort: 3306
     nodePort: 30788
-  - protocol: "TCP" 
+    protocol: TCP 
   ...
